@@ -1,4 +1,23 @@
+$OpenSans: "Open Sans";
+
+@font-face {
+  font-family: $OpenSans;
+  font-style: normal; 
+  font-weight: 400; 
+  src: url("./assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: $OpenSans;
+  font-style: normal; 
+  font-weight: 600; 
+  src: url("./assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: $OpenSans, sans-serif;
+}
+
 .page {
-  font-family: sans-serif;
   margin: 0;
 }
