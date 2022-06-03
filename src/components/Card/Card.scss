@@ -1,0 +1,14 @@
+.card {
+  background-color: #1A73E820;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 280px;
+  padding: 15px 20px;
+
+  .card__text {
+    margin: 0;
+  }
+  .card__text:last-of-type {
+    color: #999;
+  }
+}
